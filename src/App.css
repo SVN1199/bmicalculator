@@ -1,0 +1,129 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  background: #a1ffce; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #faffd1,
+    #a1ffce
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #faffd1,
+    #a1ffce
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  user-select: none;
+  overflow: hidden;
+}
+
+.bmi_body {
+  height: auto;
+  width: 100%;
+  margin-top: 12vh;
+  background: #52c234; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #061700,
+    #52c234
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #061700,
+    #52c234
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  border-radius: 5px;
+  padding: 20px;
+  overflow: hidden;
+}
+
+.inner_bmi li {
+  list-style-type: none;
+}
+
+.bmiimage {
+  position: relative;
+  height: 100%;
+  width: 100%;
+}
+
+.calc_body .heading {
+  text-align: center;
+  font-weight: 600;
+  color: white;
+}
+
+.calc_body hr {
+  height: 1px !important;
+  border: 2px solid white;
+}
+
+.calc_body input {
+  width: 100%;
+  margin-top: 10px;
+  padding: 10px;
+  border: none;
+  outline: none;
+  border-radius: 4px;
+}
+
+.calc_body button {
+  width: 45%;
+  border: none;
+  outline: none;
+  margin-top: 15px;
+  border-radius: 5px;
+  background-color: #52c234;
+  color: white;
+}
+
+.clearbtn {
+  margin-left: 10%;
+  background-color: red !important;
+}
+
+.calc_ans {
+  margin-top: 15px;
+  border: 1px solid white;
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 15px;
+  color: aliceblue;
+  font-family: "Courier New", Courier, monospace;
+  align-items: center;
+}
+
+.bmiis {
+  font-weight: 700;
+}
+.bmiqu{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.error{
+  text-align: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin-top: 10px;
+  color: red;
+}
+
+@media screen and (max-width : 768px) {
+ body{
+  overflow: hidden;
+ }
+
+ .bmi_body{
+  position: relative;
+  top: 50%;
+  transform: translateY(-30%);
+ }
+ 
+ .calc_body{
+  height: auto;
+ }
+
+  .bmiimage{
+    display: none;
+    left: 100%;
+  }
+}
