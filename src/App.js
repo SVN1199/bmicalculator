@@ -65,13 +65,13 @@ const App = () => {
                   </div>
                   <form onSubmit={handleForm}>
                     <input
-                      type="text"
+                      type="number"
                       placeholder='Weight in Kg'
                       value={weight}
                       onChange={(e) => setWeight(e.target.value)}
                     /><br />
                     <input
-                      type="text"
+                      type="number"
                       placeholder='Height in Cm'
                       value={height}
                       onChange={(e) => setHeight(e.target.value)}
