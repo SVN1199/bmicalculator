@@ -88,6 +88,9 @@ const App = () => {
                 </div>
               </div>
             </div>
+            <div className="designed">
+              Designed by Vasanth S
+            </div>
           </div>
         </div>
         <div className="col-md-2"></div>
