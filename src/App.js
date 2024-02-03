@@ -81,9 +81,9 @@ const App = () => {
                   </form>
                   {error && <div className="error">Please enter valid weight and height</div>}
                   <div className="calc_ans">
-                    <div className="bmiis">Your BMI is <b>{bmiVal || 0}</b></div>
-                    <div className="bmist">Status is <b>{status || '___'}</b></div>
-                    <div className="bmiqu"><b>{quotes ?  quotes : 'Healthy choices, happy life.'}</b></div>
+                    <div className="bmiis">Your BMI is <b>{bmiVal || '____'}</b></div>
+                    <div className="bmist mt-1">Status is <b>{status || '____'}</b></div>
+                    <div className="bmiqu mt-1"><b>{quotes ?  quotes : 'Healthy choices, happy life.'}</b></div>
                   </div>
                 </div>
               </div>
